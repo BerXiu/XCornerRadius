@@ -7,18 +7,19 @@ Pod::Spec.new do |s|
   s.summary      = "A short description of XCornerRadius."
 
   s.description  = <<-DESC
+			A Category to make cornerRadius for UIImageView have no Offscreen-Rendered, be more efficiency
                    DESC
 
   s.homepage     = "https://github.com/BerXiu/XCornerRadius"
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
-  s.author             = { "Xiu" => "gogs@fake.local" }
+  s.author             = { "BerXiu" => "502088292@qq.com" }
 
   # s.platform     = :ios
-  # s.platform     = :ios, "7.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -27,7 +28,7 @@ Pod::Spec.new do |s|
   # s.tvos.deployment_target = "9.0"
 
   s.source       = { :git => "https://github.com/BerXiu/XCornerRadius", :tag => "1.0.1" }
-  s.source_files  = "Classes", "XCornerRadius/XExtend/*.{h,m}"
+  s.source_files  = "Classes", "XCornerRadius/XExtend/**/*.{h,m}"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -38,12 +39,12 @@ Pod::Spec.new do |s|
 
 
 
-  # s.framework  = "SomeFramework"
+  s.framework  = "UIKit"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
-  # s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
