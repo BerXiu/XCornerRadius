@@ -13,6 +13,7 @@
 		46EF59C01D542A1E0051EAB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EF59BE1D542A1E0051EAB1 /* Main.storyboard */; };
 		46EF59C21D542A1E0051EAB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EF59C11D542A1E0051EAB1 /* Assets.xcassets */; };
 		46EF59C51D542A1E0051EAB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EF59C31D542A1E0051EAB1 /* LaunchScreen.storyboard */; };
+		46EF59D21D5434D60051EAB1 /* ImageView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EF59D11D5434D60051EAB1 /* ImageView+Extend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		46EF59C11D542A1E0051EAB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46EF59C41D542A1E0051EAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46EF59C61D542A1E0051EAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46EF59D01D5434D60051EAB1 /* ImageView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ImageView+Extend.h"; path = "XExtend/ImageView+Extend.h"; sourceTree = "<group>"; };
+		46EF59D11D5434D60051EAB1 /* ImageView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ImageView+Extend.m"; path = "XExtend/ImageView+Extend.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		46EF59B41D542A1E0051EAB1 /* XCornerRadius */ = {
 			isa = PBXGroup;
 			children = (
+				46EF59CF1D5433770051EAB1 /* Extend */,
 				46EF59B81D542A1E0051EAB1 /* AppDelegate.h */,
 				46EF59B91D542A1E0051EAB1 /* AppDelegate.m */,
 				46EF59BB1D542A1E0051EAB1 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				46EF59B61D542A1E0051EAB1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46EF59CF1D5433770051EAB1 /* Extend */ = {
+			isa = PBXGroup;
+			children = (
+				46EF59D01D5434D60051EAB1 /* ImageView+Extend.h */,
+				46EF59D11D5434D60051EAB1 /* ImageView+Extend.m */,
+			);
+			name = Extend;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			files = (
 				46EF59BD1D542A1E0051EAB1 /* ViewController.m in Sources */,
 				46EF59BA1D542A1E0051EAB1 /* AppDelegate.m in Sources */,
+				46EF59D21D5434D60051EAB1 /* ImageView+Extend.m in Sources */,
 				46EF59B71D542A1E0051EAB1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +316,7 @@
 				46EF59CB1D542A1E0051EAB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
